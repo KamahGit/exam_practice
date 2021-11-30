@@ -1,6 +1,6 @@
 package exam_practice;
 
-public class ArrayTests {
+class ArrayTests {
 	private int[] testScores = new int[4];
 	
 	
@@ -17,3 +17,5 @@ public class ArrayTests {
 	}
 
 }
+
+
