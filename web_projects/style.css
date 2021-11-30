@@ -1,0 +1,59 @@
+table, th, td {
+	border: 1px solid blue;
+	border-collapse: collapse;
+	
+}
+caption {
+	background: blue;
+	color: white;
+}
+table * {
+	padding: 5px;
+	
+}
+button {
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+	/* border: 5px solid salmon; */
+	box-shadow: 2px;
+}
+
+form {
+	width: fit-content;
+	margin-top: 5%;
+}
+
+.circle {
+	list-style: circle;
+}
+
+.disc {
+	list-style: disc;
+}
+
+.square {
+	list-style: square;
+}
+
+.rom-big{
+	list-style: upper-roman;
+}
+
+.rom-small {
+	list-style-type: lower-roman;
+}
+
+li {
+	color: violet;
+}
+blockquote {
+	margin-left: 20px;
+	padding: 10px;
+	border-left-color: aqua;
+	border-left-style : solid;
+}
+dt::first-letter, dd::first-letter {
+	color: green;
+	font-size: 2em ;
+}
